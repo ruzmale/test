@@ -1,0 +1,39 @@
+@CHARSET "ISO-8859-1";
+div#toolbar a:hover {
+   color:#0097FC;
+}
+div#content h2:hover {
+   cursor: pointer;
+   text-decoration: underline;
+}
+div#content h2 {
+   text-align: left;
+   font-size: 16pt;
+   color: #00439E;
+   margin: 20px auto;
+   width: 840px;
+}
+div#content img {
+   float: right;
+   margin-left: 20px;
+   width: 100px;
+   height: 100px;
+}
+div#content p {
+   width: 600px;
+   margin: auto;
+   border-left: solid 1px #D2D2D2;
+   padding-left: 40px;
+   overflow: hidden;
+}
+div#footer span {
+   border-top: black solid 1px;
+   display: block;
+   padding: 10px 0;
+   width: 1024px;
+}
+div .triangle {
+   height: 1px;
+   width: 1px;
+   border-left: solid 30px red;
+}
