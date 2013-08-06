@@ -1,5 +1,7 @@
 var actions = {};
 var interval;
+var test = 1;
+
 actions.blockHeight = [];
 actions.init = function (){
    actions.p = document.getElementsByTagName('p');
