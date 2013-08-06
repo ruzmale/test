@@ -1,0 +1,18 @@
+#error {
+	display: none;
+	color: red;
+}
+
+.highlight {
+	background-color: #FFFF88;
+}
+
+.container {
+	background-color: red;
+	width: 200px;
+}
+
+.checked {
+	background-color: yellow;
+	width: 200px;
+}

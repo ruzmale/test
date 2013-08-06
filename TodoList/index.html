@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript" src="js/_.js"></script>
+<script type="text/javascript" src="js/list.js"></script>
+<link
+	href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css"
+	rel="stylesheet" type="text/css" />
+<script
+	src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<script
+	src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="createLable">
+<a href="#" id="createNewList" onclick="showNewList()">Create new list</a>
+</div>
+
+	<div id="blockCreateNewList" style="display: none;">
+		<div>
+			<input type="text" id="listName">
+
+		</div>
+		<div id="error">Error</div>
+		<div>
+			<button id="createList" onclick="createList()">Create List</button>
+			<span>or</span> <a href="#" onclick="hideNewList()">Close</a>
+		</div>
+	</div>
+   <div id="container">
+      
+   </div>
+</body>
+</html>
